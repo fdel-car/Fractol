@@ -1,6 +1,6 @@
 # fract'ol
 
-Projet graphique consstant à créer de jolies fractales. La bibliothèque d'affichage est la minilibX.
+Projet graphique consistant à créer de jolies fractales. La bibliothèque d'affichage est la minilibX.
 
 ### Burningship
 
