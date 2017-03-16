@@ -1,4 +1,4 @@
-# fract'ol
+# Fract'ol
 
 Projet graphique consistant à créer de jolies fractales. La bibliothèque d'affichage est la minilibX.
 
