@@ -3,23 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdel-car <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: fdel-car <fdel-car@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 17:49:07 by fdel-car          #+#    #+#             */
-/*   Updated: 2016/03/22 22:26:33 by fdel-car         ###   ########.fr       */
+/*   Updated: 2018/09/19 15:22:40 by fdel-car         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fractol.h"
-#include <stdlib.h>
 
 int		ft_check(char *str)
 {
-	if (ft_strcmp(str, "burningship") == 0)
+	if (strcmp(str, "burningship") == 0)
 		return (3);
-	if (ft_strcmp(str, "julia") == 0)
+	if (strcmp(str, "julia") == 0)
 		return (2);
-	if (ft_strcmp(str, "mandelbrot") == 0)
+	if (strcmp(str, "mandelbrot") == 0)
 		return (1);
 	return (0);
 }
@@ -66,13 +65,13 @@ int		main(int ac, char **av)
 	str = ft_str();
 	if (ac != 2)
 	{
-		ft_putendl(str);
+		printf("%s\n", str);
 		return (0);
 	}
 	d->frac = ft_check(av[1]);
 	if (!d->frac)
 	{
-		ft_putendl(str);
+		printf("%s\n", str);
 		return (0);
 	}
 	d->mlx = mlx_init();

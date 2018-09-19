@@ -3,14 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_shortcut.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdel-car <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: fdel-car <fdel-car@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 22:10:32 by fdel-car          #+#    #+#             */
-/*   Updated: 2016/03/22 22:19:43 by fdel-car         ###   ########.fr       */
+/*   Updated: 2018/09/19 15:22:36 by fdel-car         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "fractol.h"
 
 void	ft_move(int keycode, t_data *d)

@@ -3,16 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   fractol.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdel-car <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: fdel-car <fdel-car@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 18:23:05 by fdel-car          #+#    #+#             */
-/*   Updated: 2016/03/22 21:40:48 by fdel-car         ###   ########.fr       */
+/*   Updated: 2018/09/19 15:24:41 by fdel-car         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FRACTOL_H
 # define FRACTOL_H
 
+# include <stdlib.h>
+# include <stdio.h>
+# include <string.h>
 # include "libft.h"
 # include "mlx.h"
 
