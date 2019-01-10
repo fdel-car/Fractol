@@ -4,14 +4,14 @@ Projet graphique consistant à créer de jolies fractales. La bibliothèque d'af
 
 ### Burningship
 
-![alt tag](https://github.com/fdel-car/fractol/blob/master/img/burningship.png)
+![alt tag](/screenshots/burningship.png)
 
 ### Julia
 
 Cette fractale suit les mouvements de la sourie.
 
-![alt tag](https://github.com/fdel-car/fractol/blob/master/img/julia.png)
+![alt tag](/screenshots/julia.png)
 
 ### Mandelbrot
 
-![alt tag](https://github.com/fdel-car/fractol/blob/master/img/mandelbrot.png)
+![alt tag](/screenshots/mandelbrot.png)
